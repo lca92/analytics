@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Análise de vendas</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <h1>Melhor vendedor do mês</h1>
+      <p>Análise de Lena Araújo</p>
+
+      <section>
+        <h2>Dados iniciais</h2>
+        <p>
+          A loja fictícia em análise tem três vendedores: Maria, Matheus e
+          Pedro.<br />
+          Foram-me fornecidos os dados de venda para os primeiros 23 dias de um
+          mês fictício. São eles:
+        </p>
+        <ul>
+          <li>Venda: real, projetada e a diferença entre elas;</li>
+          <li>Valor acumulado: real e projetado;</li>
+          <li>Tendência;</li>
+          <li>
+            Clientes abordados, vendas fechadas e a taxa de conversão entre
+            eles.
+          </li>
+        </ul>
+        <div>
+          <img
+            src="./Images/01dadosIniciaisMaria.png"
+            alt="Dados iniciais de Maria"
+          />
+          <img
+            src="./Images/02dadosIniciaisMatheus.png"
+            alt="Dados iniciais de Matheus"
+          />
+          <img
+            src="./Images/03dadosIniciaisPedro.png"
+            alt="Dados iniciais de Pedro"
+          />
+        </div>
+      </section>
+
+      <section>
+        <h2>Valor de vendas</h2>
+        <p>
+          Ao analisar o total de vendas de cada pessoa, fica evidente que alguns
+          valores estão suficientemente acima da média para serem considerados
+          outliers.<br />
+          Contando com esses dados, Maria é a pessoa que fez mais vendas (em
+          valor).<br />
+        </p>
+        <img
+          src="./Images/04valorDeVendas.png"
+          alt="Tabela de valor de vendas"
+        />
+        <img
+          src="./Images/05valorDeVendas.png"
+          alt="Gráfico de valor de vendas"
+        />
+      </section>
+
+      <section>
+        <h2>Outliers</h2>
+        <p>
+          Pedro é o vendedor com o menor número de outliers, o que poderia
+          levar-nos a supôr que ele teria o melhor valor médio de vendas.
+        </p>
+        <img src="./Images/06outliers.png" alt="Tabela de outliers" />
+        <img src="./Images/07outliers.png" alt="Gráfico de outliers" />
+      </section>
+
+      <section>
+        <h2>Projeção para o fim do mês</h2>
+        <p>
+          Mas, ao retirar os outliers, calcular a nova média e projetar um valor
+          de vendas para o fim do mês a partir dessa nova média, o vendedor a
+          sair-se melhor foi Matheus.<br />
+          No entanto, ele teria vendido apenas R$ 14,46 a mais do que Maria.
+          Para esta análise, considerei um empate técnico.
+        </p>
+        <img
+          src="./Images/08projecaoDoMes.png"
+          alt="Tabela de projeção para o fim do mês"
+        />
+        <img src="./Images/09projecaoDoMes.png" alt="Gráfico de outliers" />
+      </section>
+
+      <section>
+        <h2>Taxa de conversão</h2>
+        <p>
+          Foi preciso, então, analisar outro parâmetro. Escolhi a taxa de
+          conversão entre clientes abordados e vendas fechadas.<br />
+          Sob este novo ângulo, também haviam outliers, mas apenas para Maria.
+        </p>
+        <img
+          src="./Images/10taxaDeConversao.png"
+          alt="Gráfico de linhas de taxa de conversão de Maria"
+        />
+        <p>
+          Entretanto, mesmo depois de desconsiderados os outliers, ela ainda
+          mantém-se com alta taxa de conversão.
+        </p>
+        <img
+          src="./Images/11taxaDeConversao.png"
+          alt="Tabela de taxa de conversão"
+        />
+        <img
+          src="./Images/12taxaDeConversao.png"
+          alt="Gráfico de taxa de conversão"
+        />
+      </section>
+
+      <section>
+        <h2>Conclusão</h2>
+        <p>
+          Apesar dos valores fora da curva de Maria, mesmo ao desconsiderá-los e
+          analisá-los em comparação aos seus colegas, ela se mostra a melhor
+          vendedora numa análise de conjunto, pois traz maior retorno financeiro
+          à loja e tem taxa de conversão entre clientes abordados e vendas
+          fechadas bastante alta.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Desenvolvido por <a href="https://github.com/lca92">Lena Araújo</a> para
+        o Curso de Formação de
+        <a href="https://specialisternebrasil.com/">Specialisterne Brasil</a>
+      </p>
+    </footer>
+  </body>
+</html>
