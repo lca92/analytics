@@ -3,24 +3,51 @@
 body {
   font-family: Roboto, Arial, sans-serif;
   margin: 10rem;
+  background-color: white;
 }
 
-i {
+#assinatura {
   font-size: 1.3rem;
 }
 
 h1 {
   font-family: "Bebas Neue";
   font-size: 5rem;
+  color: black;
 }
 
 h2 {
   font-family: "Bebas Neue";
   font-size: 3.5rem;
+  color: black;
 }
 
 p {
   max-width: 70%;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+ul {
+  margin-bottom: 4rem;
+  color: black;
+}
+
+figcaption {
+  font-size: 0.85em;
+  margin: 0 0 5rem 2rem;
+  color: black;
+}
+
+#segundoparagrafo {
+  /* Pensar melhor o ajuste abaixo */
+  margin-top: 3rem;
+}
+
+footer {
+  margin-top: 15rem;
+  font-size: 0.85em;
+  color: black;
 }
 
 /* Imagens */
@@ -52,7 +79,8 @@ img {
   margin-right: 2rem;
 }
 
-footer {
-  margin-top: 15rem;
-  font-size: 0.85em;
+#taxadeconversao {
+  max-width: 30rem;
+  /* Pensar melhor o ajuste abaixo */
+  margin-left: 9rem;
 }
