@@ -1,0 +1,58 @@
+/* Texto */
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 10rem;
+}
+
+i {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "Bebas Neue";
+  font-size: 3.5rem;
+}
+
+p {
+  max-width: 70%;
+}
+
+/* Imagens */
+
+#dadosiniciais {
+  display: flex wrap;
+  align-items: center;
+}
+
+.dadosiniciais {
+  max-width: 50rem;
+}
+
+.visualdata {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tabela {
+  max-width: 15rem;
+}
+
+.grafico {
+  max-width: 40rem;
+}
+
+img {
+  margin-right: 2rem;
+}
+
+footer {
+  margin-top: 15rem;
+  font-size: 0.85em;
+}

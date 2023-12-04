@@ -4,13 +4,17 @@
     <title>Análise de vendas</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
-
     <main>
       <h1>Melhor vendedor do mês</h1>
-      <p>Análise de Lena Araújo</p>
+      <p><i>Análise de Lena Araújo</i></p>
 
       <section>
         <h2>Dados iniciais</h2>
@@ -29,19 +33,28 @@
             eles.
           </li>
         </ul>
-        <div>
-          <img
-            src="./Images/01dadosIniciaisMaria.png"
-            alt="Dados iniciais de Maria"
-          />
-          <img
-            src="./Images/02dadosIniciaisMatheus.png"
-            alt="Dados iniciais de Matheus"
-          />
-          <img
-            src="./Images/03dadosIniciaisPedro.png"
-            alt="Dados iniciais de Pedro"
-          />
+        <div id="dadosiniciais">
+          <div>
+            <img
+              class="dadosiniciais"
+              src="./Images/01dadosIniciaisMaria.png"
+              alt="Dados iniciais de Maria"
+            />
+          </div>
+          <div>
+            <img
+              class="dadosiniciais"
+              src="./Images/02dadosIniciaisMatheus.png"
+              alt="Dados iniciais de Matheus"
+            />
+          </div>
+          <div>
+            <img
+              class="dadosiniciais"
+              src="./Images/03dadosIniciaisPedro.png"
+              alt="Dados iniciais de Pedro"
+            />
+          </div>
         </div>
       </section>
 
@@ -54,14 +67,22 @@
           Contando com esses dados, Maria é a pessoa que fez mais vendas (em
           valor).<br />
         </p>
-        <img
-          src="./Images/04valorDeVendas.png"
-          alt="Tabela de valor de vendas"
-        />
-        <img
-          src="./Images/05valorDeVendas.png"
-          alt="Gráfico de valor de vendas"
-        />
+        <div class="visualdata">
+          <div>
+            <img
+              class="tabela"
+              src="./Images/04valorDeVendas.png"
+              alt="Tabela de valor de vendas"
+            />
+          </div>
+          <div>
+            <img
+              class="grafico"
+              src="./Images/05valorDeVendas.png"
+              alt="Gráfico de valor de vendas"
+            />
+          </div>
+        </div>
       </section>
 
       <section>
@@ -70,8 +91,22 @@
           Pedro é o vendedor com o menor número de outliers, o que poderia
           levar-nos a supôr que ele teria o melhor valor médio de vendas.
         </p>
-        <img src="./Images/06outliers.png" alt="Tabela de outliers" />
-        <img src="./Images/07outliers.png" alt="Gráfico de outliers" />
+        <div class="visualdata">
+          <div>
+            <img
+              class="tabela"
+              src="./Images/06outliers.png"
+              alt="Tabela de outliers"
+            />
+          </div>
+          <div>
+            <img
+              class="grafico"
+              src="./Images/07outliers.png"
+              alt="Gráfico de outliers"
+            />
+          </div>
+        </div>
       </section>
 
       <section>
@@ -83,11 +118,22 @@
           No entanto, ele teria vendido apenas R$ 14,46 a mais do que Maria.
           Para esta análise, considerei um empate técnico.
         </p>
-        <img
-          src="./Images/08projecaoDoMes.png"
-          alt="Tabela de projeção para o fim do mês"
-        />
-        <img src="./Images/09projecaoDoMes.png" alt="Gráfico de outliers" />
+        <div class="visualdata">
+          <div>
+            <img
+              class="tabela"
+              src="./Images/08projecaoDoMes.png"
+              alt="Tabela de projeção para o fim do mês"
+            />
+          </div>
+          <div>
+            <img
+              class="grafico"
+              src="./Images/09projecaoDoMes.png"
+              alt="Gráfico de outliers"
+            />
+          </div>
+        </div>
       </section>
 
       <section>
@@ -101,18 +147,27 @@
           src="./Images/10taxaDeConversao.png"
           alt="Gráfico de linhas de taxa de conversão de Maria"
         />
+
         <p>
           Entretanto, mesmo depois de desconsiderados os outliers, ela ainda
           mantém-se com alta taxa de conversão.
         </p>
-        <img
-          src="./Images/11taxaDeConversao.png"
-          alt="Tabela de taxa de conversão"
-        />
-        <img
-          src="./Images/12taxaDeConversao.png"
-          alt="Gráfico de taxa de conversão"
-        />
+        <div class="visualdata">
+          <div>
+            <img
+              class="tabela"
+              src="./Images/11taxaDeConversao.png"
+              alt="Tabela de taxa de conversão"
+            />
+          </div>
+          <div>
+            <img
+              class="grafico"
+              src="./Images/12taxaDeConversao.png"
+              alt="Gráfico de taxa de conversão"
+            />
+          </div>
+        </div>
       </section>
 
       <section>
